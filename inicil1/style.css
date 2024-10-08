@@ -1,0 +1,156 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    height: 175vh;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #ccc;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.menu {
+    width: 100%;
+    overflow: auto;
+    float: left;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li {
+    width: 100%;
+}
+
+.menu ul li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.turmas {
+    display: flex;
+    gap: 80px;
+
+}
+
+.turma-card {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2px;
+    width: 240px;
+    text-align: center;
+
+}
+
+.img-card {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.inf {
+    width: 240px;
+    height: 60px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 0px 0px 7px;
+}
+
+.t1 {
+    font-style: normal;
+    font-size: 30px ;
+    font-weight: bolder
+    
+    
+}
+
+.turma-card h3 {
+    font-size: 18px;
+    margin-top: 2px;
+}
+
+.turma-card p {
+    font-size: 14px;
+    margin: 2px;
+}
+
+.btn {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.btn-2 {
+    background-color: #f24f00;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.btn:hover {
+    background-color: #3498db;
+}
+
+.btn-lado {
+    border-radius: 60px;
+    width: 200px;
+    height: 50px;
+
+}
